@@ -13,7 +13,27 @@ body{
     background: #000000;
     min-height:200vh;
 }
+header ul li a{
+    text-transform: uppercase;
+}
+header ul li  a:hover{
+    transform: scale(1.5);
+    text-underline-position: below;
+    text-underline-offset: transform scale(1.03);
+}
+header ul li::after{
+    content: '';
+    height: 2.5px;
+    background:#fada5e;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    width: 0%;
+}
 
+header ul li:hover::after{
+    width: 90%;
+}
 header{
     position:fixed;
     top: 0;
@@ -258,7 +278,18 @@ img.fav{
             margin-right: 4%;
          }
          .explore{
-             margin-left:45%;
+             margin-left:50%;
+            }
+            .social{
+                margin-right:4%;
+                transform: translateY(-540%);
+                
+               }
+               .fab{
+                font-size:27px;
+            }
+            header ul li a{
+               font-size:16px;
             }
       }
 
