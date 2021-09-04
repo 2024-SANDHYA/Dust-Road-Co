@@ -50,6 +50,8 @@ header{
 h2{
     color:white;
 }
+
+
 header .logo{
     position: relative;
     font-weight: 700;
@@ -223,7 +225,7 @@ form{
 }
 
 
-button{
+.letter{
     width:90px;
     height: 44px;
     text-transform: uppercase;
@@ -293,4 +295,51 @@ img.fav{
             }
       }
 
+      /* Mobile View */
+      @media only screen and (max-width: 767px){
 
+
+      }
+
+
+
+
+
+/* CSS TEXT ANIMATION */
+
+
+.info {
+
+transform: translateY(-200%);
+color:white;
+font-size: 40px;
+text-align:center;
+margin-left: 5%;
+}
+.span{
+    font-family: 'Overpass', sans-serif;
+}
+
+.start a{
+   text-decoration: none;
+   color:rgb(2, 2, 2);
+   font-size: 15px;
+   
+}
+
+.start{
+    width:130px;
+    height: 44px;
+    text-transform: uppercase;
+    background-color:#fdff00;
+    border: none;
+    margin-top: 60px;
+    border-radius:6px;
+    outline: none;
+}
+
+.start:hover{
+    border: 4px solid #fdff00;
+    background-color:(255,255,255, 0.1);
+
+}
