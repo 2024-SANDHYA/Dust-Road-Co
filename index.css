@@ -312,7 +312,7 @@ img.fav{
 
 transform: translateY(-200%);
 color:white;
-font-size: 40px;
+font-size: 43px;
 text-align:center;
 margin-left: 5%;
 }
@@ -324,14 +324,15 @@ margin-left: 5%;
    text-decoration: none;
    color:rgb(2, 2, 2);
    font-size: 15px;
+   cursor: pointer;
    
 }
 
 .start{
     width:130px;
-    height: 44px;
+    height: 54px;
     text-transform: uppercase;
-    background-color:#fdff00;
+    background-color:#dada3f;
     border: none;
     margin-top: 60px;
     border-radius:6px;
@@ -339,7 +340,6 @@ margin-left: 5%;
 }
 
 .start:hover{
-    border: 4px solid #fdff00;
-    background-color:(255,255,255, 0.1);
+    background-color:#fdff00 ;
 
 }
