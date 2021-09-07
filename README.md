@@ -69,7 +69,7 @@ git checkout -b <your_branch_name>
 
 **8.** Perform your desired changes to the code base.
 
-<p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
+<p align="center"><img width=35% src="https://media.giphy.com/media/3bu85lsWhBTlWcOMN6/giphy.gif"></p>
 
 **9.** Track your changes 🔍 .
 
@@ -96,6 +96,7 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 **15.** Congrats !! You made your first PR 🥳.
+<p align="center"><img width=35% src="https://media.giphy.com/media/3NnnS6Q8hVPZC/giphy.gif"></p>
 <hr>
 
  ✨This project and everyone participating in it is governed by **[Code Of Conduct](https://github.com/2024-SANDHYA/Dust-Road-Co/blob/187426b252ea57b861dbbb5a65fb567c7b8dd650/Code%20Of%20Conduct.md)** .By participating, you are expected to uphold this code.✨
