@@ -5,4 +5,5 @@
  
   **Dust Road Co.** is an initiative towards sustainable development.The idea of the website is to provide the carpooling services & track those who are travelling to same destination.🚕 
   
-  #### How the website ❓
+  #### What is the idea of the website ❓
+Users will login/signup, and on their own dashboard, they'll see people within 5 kilometres of them who are travelling to the same place, and from there they will be able to carpool.A step toward a cleaner and more environmentally friendly atmosphere. 
