@@ -40,10 +40,10 @@ Users will login/signup, and on their own dashboard, they'll see people within 5
 git clone --depth 1 https://github.com/<your_user_name>/Dust-Road-Co.git
 ```
 
-**3.** Navigate to the project directory :file_folder: .
+**3.** Navigate to the project directory 👩🏻‍💻 .
 
 ```
-cd Blood-Buddy
+cd Dust-Road-Co
 ```
 
 **4.** Add a remote upstream to the original repository.
@@ -74,7 +74,7 @@ git checkout -b <your_branch_name>
 
 <p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
-**9.** Track your changes:heavy_check_mark: .
+**9.** Track your changes 🔍 .
 
 ```
 git add . 
