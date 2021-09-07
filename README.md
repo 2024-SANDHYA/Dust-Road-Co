@@ -3,4 +3,4 @@
 
  ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75671152/132312113-5d685fbf-d5f5-432a-bc92-8c90c79de721.gif) 
  
- **Dust Road Co.** is an initiative towards sustainable development.The idea of the website is to provide the carpooling services & track those who are travelling to same destination. 🚕
+ <h2> **Dust Road Co.** is an initiative towards sustainable development.The idea of the website is to provide the carpooling services & track those who are travelling to same destination.🚕 </h2>
