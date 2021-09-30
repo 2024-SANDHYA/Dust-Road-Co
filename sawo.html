@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/banner.jpg">
+    <link rel="stylesheet" href="sawo.css">
+    <link rel="stylesheet" href="index.css">
+    <title>SAWO Login</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="./Images/banner.jpg" class="fav">
+        </a>
+        <ul id="navbarNav" class="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            
+        </ul>
+      </a>
+    </header>
+ 
+    <h2 class="h">LOGIN TO PROCEED FURTHER</h2>
+    <div id="sawo-container" style="height: 300px; width: 400px;"></div>
+    <script src="https://websdk.sawolabs.com/sawo.min.js"></script>    
+    <script>
+        var config = {
+            // should be same as the id of the container created on 3rd step
+            containerID: "sawo-container",
+            // can be one of 'email' or 'phone_number_sms'
+            identifierType: "email",
+            // Add the API key copied from 2nd step
+            apiKey: "bf4e4952-5413-4d3b-a374-6f42f7554bdd",
+            // Add a callback here to handle the payload sent by sdk
+            onSuccess: (payload) => {
+                window.location = './index.html'
+            },
+        };
+        var sawo = new Sawo(config);
+        sawo.showForm(); 
+    </script>
+
+    
+<!-- Sticky navbar -->
+
+<script type="text/javascript">
+    window.addEventListener("scroll",function() {
+    var header =document.querySelector("header")
+    header.classList.toggle("sticky",window.scrollY > 0);
+    });
+    </script>
+
+</body>
+</html>
