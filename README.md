@@ -23,6 +23,13 @@ Dust-Road Co website is an initiative towards a better environment. The website 
 <h4> Star ⭐️the repo to get frequent updates & appreciate the efforts.</h4>
 <img src="https://user-images.githubusercontent.com/75671152/132321870-a1f14163-fece-46cb-b109-12f598a773c5.png" />
 
+#### Integrating with SAWO API :
+
+1. Login to SAWO Dashboard
+2. Create a project
+3. Generate special API Key.
+4. Include the code as given in the SAWO Docs.
+5. Lastly, don't forget to change the host namme.
 
 <p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
 <hr>
