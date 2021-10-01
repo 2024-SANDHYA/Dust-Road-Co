@@ -104,7 +104,7 @@ header.sticky ul li a{
 color: #000;
 }
 
-/* FOOTER */
+/* -------------------FOOTER ----------------------*/
 
 footer{
     background-color:#232b2b;
@@ -115,7 +115,6 @@ footer{
 }
 
 .content{
-   
     padding-left: 20px;
     padding-top: 5%;
 }
@@ -146,8 +145,8 @@ color: #dedede ;
 .explore{
 padding-top:0px;
 margin-top:0px;
- margin-left:40%;
- transform: translateY(-168%);
+ margin-left:45%;
+ transform: translateY(-154%);
  padding-bottom:0px;
 margin-bottom:0px;
 }
@@ -162,7 +161,7 @@ margin-bottom:0px;
  padding-top:0px;
 margin-top:0px;
  margin-left:80%;
- transform: translateY(-580%);
+ transform: translateY(-560%);
  padding-bottom:0px;
 margin-bottom:0px;
 }
@@ -202,7 +201,7 @@ span{
     color:#fff;
 }
 
-/* Newletter */
+/*------------------- Newletter------------------ */
 
 form{
     transform: translateY(-130%);
@@ -224,7 +223,6 @@ form{
     
 }
 
-
 .letter{
     width:90px;
     height: 44px;
@@ -236,23 +234,11 @@ form{
     border:none;
 }
 
-
 .letter:hover{
     background-color:#1b1a18;
     color: rgb(253, 247, 247);
 }
 
-
-
-.icon {
-    color: #f1ff74;
-    font-size: 28px;
-  }
-  
-  .icon:hover {
-    color: #e6e937;
-
-  }
 /* -------------------------MEDIA QUERIES-------------------- */
 
 
@@ -260,6 +246,9 @@ form{
 @media only screen and (min-width: 1080px) {
     .icon {
       visibility: hidden;
+    }
+    .fa-times,.fa-bars{
+        visibility: hidden;
     }
   }
 
@@ -269,6 +258,9 @@ form{
     .icon {
         visibility: hidden;
       }
+      .fa-times,.fa-bars{
+        visibility: hidden;
+    }
 img.fav{
          padding-top: 4px;
          padding-left: 0%;
@@ -280,10 +272,11 @@ img.fav{
          }
          .explore{
              margin-left:50%;
+             transform: translateY(-147%);
             }
             .social{
                 margin-right:1%;
-                transform: translateY(-534%);
+                transform: translateY(-501%);
                 
                }
                .fab{
@@ -295,10 +288,76 @@ img.fav{
       }
 
       /* Mobile View */
+
       @media only screen and (max-width: 767px){
+.f2{
+    font-size:12px;
+}
+.news{
+    font-size:19px;
+}
+.sub{
+    font-size:14px;
+}
 
+.emailbox{
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 12px;
+}
+.newsletter-box{
+    padding-top: 10px;
+    
+}
 
-      }
+.letter{
+    width:90px;
+    height: 41px;
+    text-transform: uppercase;
+    background-color:#fdff00;
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    outline: none;
+    border:none;
+    font-size:12px;
+}
+
+.letter:hover{
+    background-color:#1b1a18;
+    color: rgb(253, 247, 247);
+}
+.content{
+    padding-left: 4px;
+    padding-top: 2%;
+}
+.head-1,.ex,.follow{
+    font-size:13px;
+    padding-bottom: 1% ;
+}
+.serv-list li a,.about{
+    padding-top: 2%;
+font-size: 10px;
+}
+
+.explore{
+    padding-top: 2%;
+    transform: translateY(-107%);
+   padding-left: 29px;
+}
+.social{
+    margin-right:0%;
+    transform: translateY(-510%);
+    
+   }
+   .fab{
+    font-size:11px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+
+}
+
 
 
 
