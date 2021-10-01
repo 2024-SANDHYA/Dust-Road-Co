@@ -1,5 +1,5 @@
 # Dust-Road-Co
-Dust-Road Co website is an initiative towards a better environment. The website provides users the facility to do carpool , if they are traveling to the same destination
+Dust-Road Co website is an initiative towards a better environment. The website provides users the facility to do carpool , if they are traveling to the same destination.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
@@ -7,12 +7,7 @@ Dust-Road Co website is an initiative towards a better environment. The website 
 
 
 
-**Dust-Road-Co** is a website that offers blood donation services to anyone in need. The website works :
-
-1. Register on the website.
-2. Add your address.
-3. Website can track nearby blood bank.
-4. Get updates.
+**Dust-Road-Co** is a website which helps the users find car & bike pool possibilities, thereby reducing traffic & commute costs.
 
 <hr>
 
