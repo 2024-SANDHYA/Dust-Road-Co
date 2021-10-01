@@ -3,9 +3,10 @@ Dust-Road Co website is an initiative towards a better environment. The website 
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
-![image](https://user-images.githubusercontent.com/75671152/135614922-4c030cf2-0066-4ae0-afde-d114ad1105a1.png)
+![image](https://user-images.githubusercontent.com/75671152/135615099-0d457cb7-bae5-4e85-97d0-9d00a0390546.png)
 
-**Blood Buddy** is a website that offers blood donation services to anyone in need. The website works :
+
+**Dust-Road-Co** is a website that offers blood donation services to anyone in need. The website works :
 
 1. Register on the website.
 2. Add your address.
