@@ -30,6 +30,7 @@ Dust-Road Co website is an initiative towards a better environment. The website 
 3. Generate special API Key.
 4. Include the code as given in the SAWO Docs.
 5. Lastly, don't forget to change the host namme.
+<br>
 
 <p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
 <hr>
