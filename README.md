@@ -24,13 +24,15 @@ Dust-Road Co website is an initiative towards a better environment. The website 
 <img src="https://user-images.githubusercontent.com/75671152/132321870-a1f14163-fece-46cb-b109-12f598a773c5.png" />
 
 #### Authentication : SAWO API :
-<p> SAWO is an authentication solution that can onboard users without any passwords or OTPs, thus making the process hassle-free, quick & secure. </p>
+ [SAWO](https://sawolabs.com/) is an authentication solution that can onboard users without any passwords or OTPs, thus making the process hassle-free, quick & secure. All you have to do is :
 
+```
 1. Login to SAWO Dashboard
 2. Create a project
 3. Generate special API Key.
 4. Include the code as given in the SAWO Docs.
 5. Lastly, don't forget to change the host namme.
+```
 <br>
 
 <p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
