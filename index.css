@@ -123,6 +123,11 @@ footer{
     padding-top: 2%;
     padding-bottom: 3%;
     border-bottom: 2px solid rgb(255, 230, 0);
+    margin-left: 1.5%;
+}
+
+.head-1 {
+    margin-left: 1.5%;
 }
 
 .serv-list li a{
@@ -155,7 +160,7 @@ margin-bottom:0px;
 }
 
 .follow{
-    margin-top:36%;
+    margin-top:33%;
 }
 .social{
  padding-top:0px;
