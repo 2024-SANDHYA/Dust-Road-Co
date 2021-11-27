@@ -38,5 +38,5 @@ Dust-Road Co website is an initiative towards a better environment. The website 
 <p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
 <hr>
 
- ✨This is the demo project , open for [contribution](https://www.dataschool.io/how-to-contribute-on-github/). Everyone participating in it is governed by **[Code Of Conduct](https://github.com/2024-SANDHYA/Dust-Road-Co/blob/ca7ac5ece51142c8f82224c4544a2d5903a8d3cc/Code%20Of%20Conduct.md)** .By participating, you are expected to uphold this code.✨
+ ✨This is the demo project , open for [contribution](https://www.dataschool.io/how-to-contribute-on-github/). Everyone participating in it is governed by **[Code Of Conduct](https://github.com/2024-SANDHYA/Dust-Road-Co/blob/ca7ac5ece51142c8f82224c4544a2d5903a8d3cc/Code%20Of%20Conduct.md)**. By participating, you are expected to uphold this code.✨
 
