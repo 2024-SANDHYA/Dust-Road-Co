@@ -83,7 +83,7 @@
 
 <!-- Footer 2 -->
 <div class="foot2">
-    <p class="f2">Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©2021 All rights reserved<br></p>
+    <p class="f2">Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©<span id="year"></span> All rights reserved<br></p>
     </div>
 </footer>
 
@@ -95,7 +95,13 @@
     var header =document.querySelector("header")
     header.classList.toggle("sticky",window.scrollY > 0);
     });
-    </script>
+    
+    // Dynamic copyright Year
+    const yearEl = document.getElementById("year");
+    const today = new Date();
+    yearEl.innerText = today.getFullYear();
+
+</script>
 
         <!--JAVASCRIPT FOR TOGGLE MENU -->
 <!-- <script>
