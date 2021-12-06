@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/banner.jpg">
+    <link rel="stylesheet" href="sawo.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>SAWO Dashboard</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="./Images/banner.jpg" class="fav">
+        </a>
+        <ul id="navbarNav" class="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            
+        </ul>
+      </a>
+    </header>
+   
+    <!--dashboard welcome user box-->
+
+    <div id="sawo-container" class="dashboard-container" style="height: auto; width: 400px;">
+        <div class="dashboard-titles">
+            <h1>Hey!</h1>
+        <h3>W E L C O M E</h3>
+        </div>
+        <br>
+        <div class="user-icon">
+          <img src="Images/user-icon.png" alt="user-profile-pic">
+        </div>
+        <br>
+        <div class="dashboard-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo consequatur minus! Sit provident explicabo sequi omnis vitae nemo dolor sint!.</p>
+        </div>
+        <div class="dashboard-welcome-button">
+           <button class="dashboard-welcome-button start">C o n t i n u e     ></button>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",function() {
+        var header =document.querySelector("header")
+        header.classList.toggle("sticky",window.scrollY > 0);
+        });
+        </script>
+</body>
+</html>

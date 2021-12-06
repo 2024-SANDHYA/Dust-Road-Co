@@ -1,0 +1,35 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.dashboard-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    padding:2em;
+    position: absolute;
+}
+.dashboard-titles>h1{
+     opacity:0.6;
+     font-size: 4rem;
+     text-align: center;
+}
+.dashboard-titles>h3{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.dashboard-content{
+    text-align: center;
+}
+.user-icon img{
+    height:6.5em;
+    width:6.5em;
+}
+.dashboard-welcome-button{
+    width:21em;
+    position: relative;
+    left:5%;
+    border-radius: 1em;
+}
