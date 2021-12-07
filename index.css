@@ -9,6 +9,7 @@
 
 }
 
+/* Header */
 body{
     background: #000000;
     min-height:150vh;
@@ -399,9 +400,9 @@ margin-left: 5%;
 
 .start:hover{
     background-color:#fdff00 ;
-
 }
-/* Preloader */
+
+/*  PRELOADER CODE BEGIN  */
 
 .no-scroll-y {
 	overflow-y: hidden;
@@ -545,3 +546,4 @@ margin-left: 5%;
 	  font: bold 2em 'Montserrat', sans-serif;
 	}
 }
+/*  PRELOADER END  */
