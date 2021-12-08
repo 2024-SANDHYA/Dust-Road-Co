@@ -9,6 +9,26 @@
 
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 95);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+    opacity: 0.5;
+}
+
 /* Header */
 body{
     background: #000000;
