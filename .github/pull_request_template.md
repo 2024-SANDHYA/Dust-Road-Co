@@ -5,11 +5,6 @@
 
 **Please mention the following in order to get PR merged**  🙌🏻🙌🏻 
 
-<!-- 1. E.g. Is it a new feature, bugfix, code improvement etc. ? Add some description. -->
-<!-- 2. Mention the issue number using # -->
-<!-- 3. Please add appropriate screenshots & GitHub page link to track the changes. -->
-
-
 1. Kind of change this PR introduce :
 2. Issue it resolves : 
-3. Screenshots & GitHub Page Link : 
+3. GitHub Page Link : 
