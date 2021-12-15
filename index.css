@@ -112,7 +112,7 @@ footer{
     color:#fff;
     padding-bottom: 0px;
     margin-bottom:0px;
-   
+    position: relative;
 }
 
 .content{
@@ -170,6 +170,18 @@ margin-bottom:0px;
 .foot2{
     text-align:center;
     background-color:rgb(32, 30, 30);
+    display: inline-block;
+    width: 100%;
+    padding: 2rem 0;
+    line-height: 30px;
+    position: absolute;
+    bottom: -50px;
+    
+}
+
+.f2{
+    width:30%;
+    margin: auto;
 }
 span{
     color:rgb(228, 224, 20);
@@ -207,7 +219,7 @@ span{
 form{
     transform: translateY(-130%);
     text-align: center;
-   
+    padding-bottom: 1rem;
 }
 .news{
     letter-spacing: 2px;
@@ -351,7 +363,7 @@ font-size: 10px;
     transform: translateY(-510%);
     
    }
-   .fab{
+.fab{
     font-size:11px;
     margin-right: 5px;
     margin-left: 5px;
