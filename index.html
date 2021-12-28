@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,8 @@
     <script src="https://kit.fontawesome.com/9603a582d3.js" crossorigin="anonymous"></script>
     <title>Dust Road Co. </title>
 </head>
-<body> 
+
+<body>
     <header>
         <a href="#" class="logo">
             <img src="./Images/banner.jpg" class="fav">
@@ -20,93 +22,131 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#contact">Contact </a></li>
-            
-   </ul>
-   <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+
+        </ul>
+        <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
     </header>
 
 
-<section class="banner"> </section>
+    <section class="banner"> </section>
 
-<div class="info">
-    A Step <span>Towards Bright Future!!</span>
-    <br>
-   
-    <button type="" name="button" class="start"><a href="sawo.html">Get Started</a></button>
-</div>
+    <div class="info">
+        A Step <span>Towards Bright Future!!</span>
+        <br>
 
-
-<!-- FOOTER -->
-
-
-<footer>
-
-    <div class="content">
-        <h2 class="head-1">About</h2>
-<p class="about">
-    Dust Car Co.is a step towards sustainable <br>environment. With the  to 
-   help users find <br>car & bike pool possibilities, thereby <br>reducing
-    traffic &  commute costs.
-</p>
-
-<div class="explore">
-    <h2 class="ex">Explore</h2>
-  
-<ul class="serv-list">
-    <li><a href="#">Car Pooling</a></li>
-    <li><a href="#">Bike Pooling</a></li>
-    <li><a href="#">We are hiring !</a></li>
-</ul>
-</div>
-
-<!-- SOCIAL MEDIA -->
-<div class ="social">
-
-    <h2 class="follow">Follow Us</h2>
-  <a href="#"><i class="fab fa-instagram"></i></a>
-  <a href="#"><i class="fab fa-facebook"></i></a>
-  <a href="#"><i class="fab fa-twitter"></i></a>
-</div>
-
-<!--   NEWLETTER  -->
-<form action="" class="newsletter" id="contact">
-     
-    <h2 class="news">Subscribe Our Newsletter</h2>
-    <p class="sub">Get frequent updates  from us .</p>
-    <div class="newsletter-box">
-        <input class="emailbox" type="email" name="" value="" placeholder="Enter your email id">
-        <button type="button" name="button" class="letter">Subscribe</button>
+        <button type="" name="button" class="start"><a href="sawo.html">Get Started</a></button>
     </div>
-</form>
-</div>
 
 
-<!-- Footer 2 -->
-<div class="foot2">
-    <p class="f2">Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©<span id="year"></span> All rights reserved<br></p>
-    </div>
-</footer>
-
-<!-- Sticky navbar -->
+    <!-- FOOTER -->
 
 
-<script type="text/javascript">
-    window.addEventListener("scroll",function() {
-    var header =document.querySelector("header")
-    header.classList.toggle("sticky",window.scrollY > 0);
-    });
-    
-    // Dynamic copyright year
+    <footer>
 
-    const yearEl = document.getElementById("year");
-    const today = new Date();
-    yearEl.innerText = today.getFullYear();
+        <div class="content">
+            <h2 class="head-1">About</h2>
+            <p class="about">
+                Dust Car Co.is a step towards sustainable <br>environment. With the to
+                help users find <br>car & bike pool possibilities, thereby <br>reducing
+                traffic & commute costs.
+            </p>
+
+            <div class="explore">
+                <h2 class="ex">Explore</h2>
+
+                <ul class="serv-list">
+                    <li><a href="#">Car Pooling</a></li>
+                    <li><a href="#">Bike Pooling</a></li>
+                    <li><a href="#">We are hiring !</a></li>
+                </ul>
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="social">
+
+                <h2 class="follow">Follow Us</h2>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <!--   NEWLETTER  -->
+            <form action="" class="newsletter" id="contact">
+
+                <h2 class="news">Subscribe Our Newsletter</h2>
+                <p class="sub">Get frequent updates from us .</p>
+                <div class="newsletter-box">
+                    <input class="emailbox" type="email" name="email" value="" id="email"
+                        placeholder="Enter your email id">
+                    <button type="button" name="button" class="letter"
+                        onclick="ValidateEmail(document.getElementById('email').value)">Subscribe</button>
+                </div>
+            </form>
+        </div>
+        <div class="popup">
+            <div class="popup-content">
+                <div class="main">
+                    <img src="./Images/confirmation.png" alt="Confirmation Image">
+                    <br><br>
+                    <h1>Saved!</h1>
+                    <h3>Love. Nurture. Protect. Carpool.</h3>
+                    <br>
+                    <button class="ok-btn">OK</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer 2 -->
+        <div class="foot2">
+            <p class="f2">Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©<span id="year"></span> All rights
+                reserved<br></p>
+        </div>
+    </footer>
+
+    <!-- Sticky navbar -->
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header")
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        // Dynamic copyright year
+
+        const yearEl = document.getElementById("year");
+        const today = new Date();
+        yearEl.innerText = today.getFullYear();
 
 
     </script>
 
-        <!--JAVASCRIPT FOR TOGGLE MENU -->
-<!-- <script>
+    <!-- Confirmation Window -->
+
+<script>
+    function ValidateEmail(mail) {
+        var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (mail.match(mailFormat)) {
+            document.querySelector(".popup").style.display = "flex";
+            document.querySelector(".ok-btn").addEventListener("click", function () {
+                document.querySelector(".popup").style.display = "none";
+            })
+            window.onclick = function (event) {
+                if (event.target == document.querySelector(".popup")) {
+                    document.querySelector(".popup").style.display = "none";
+                }
+            }
+            return (true);
+
+        }
+        return (false)
+    }
+
+</script>
+
+    <!--JAVASCRIPT FOR TOGGLE MENU -->
+    <!-- <script>
     var navbarNav =document.getElementById("navbarNav");
 
     function showMenu(){
@@ -117,4 +157,5 @@
     }
 </script> -->
 </body>
+
 </html>
