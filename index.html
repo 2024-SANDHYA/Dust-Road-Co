@@ -104,16 +104,30 @@
             <input
               class="emailbox"
               type="email"
-              name=""
-              value=""
+              name="email"
+              value="" 
+              id="email"
               placeholder="Enter your email id"
             />
-            <button type="button" name="button" class="letter">
-              Subscribe
-            </button>
+            <button type="button" name="button" class="letter"
+            onclick="ValidateEmail(document.getElementById('email').value)">Subscribe</button>
           </div>
         </form>
       </div>
+
+      <div class="popup">
+        <div class="popup-content">
+            <div class="main">
+                <img src="./Images/confirmation.png" alt="Confirmation Image">
+                <br><br>
+                <h1>Saved!</h1>
+                <h3>Love. Nurture. Protect. Carpool.</h3>
+                <br>
+                <button class="ok-btn">OK</button>
+            </div>
+
+        </div>
+    </div>
 
       <!-- Footer 2 -->
       <div class="foot2">
@@ -147,6 +161,26 @@
           }
         }, 3000);
       });
+
+      //Confirmation Window
+      function ValidateEmail(mail) {
+        var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (mail.match(mailFormat)) {
+            document.querySelector(".popup").style.display = "flex";
+            document.querySelector(".ok-btn").addEventListener("click", function () {
+                document.querySelector(".popup").style.display = "none";
+            })
+            window.onclick = function (event) {
+                if (event.target == document.querySelector(".popup")) {
+                    document.querySelector(".popup").style.display = "none";
+                }
+            }
+            return (true);
+
+        }
+        return (false)
+    }
+    
       // Dynamic copyright year
 
       const yearEl = document.getElementById('year');
