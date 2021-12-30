@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/9603a582d3.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Dust Road Co.</title>
   </head>
   <body>
@@ -117,21 +118,22 @@
       <!-- Footer 2 -->
       <div class="foot2">
         <p class="f2">
-          Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©2021 All rights
-          reserved<br />
+          Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©<span
+            id="year"
+          ></span>
+          All rights reserved<br />
         </p>
       </div>
     </footer>
 
     <!-- Sticky navbar -->
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
       window.addEventListener('scroll', function () {
         var header = document.querySelector('header');
         header.classList.toggle('sticky', window.scrollY > 0);
       });
-      // Loader fade-out Logic
+
+      // Pre-Loader Logic
       $(document).ready(function () {
         setTimeout(function () {
           $('#ctn-preloader').addClass('loaded');
@@ -145,18 +147,22 @@
           }
         }, 3000);
       });
+      // Dynamic copyright year
+
+      const yearEl = document.getElementById('year');
+      const today = new Date();
+      yearEl.innerText = today.getFullYear();
     </script>
 
     <!--JAVASCRIPT FOR TOGGLE MENU -->
     <!-- <script>
-    var navbarNav =document.getElementById("navbarNav");
-
-    function showMenu(){
-        navbarNav.style.right="0";
-    }
-    function hideMenu(){
-        navbarNav.style.right="-400px";
-    }
+  var navbarNav =document.getElementById("navbarNav");
+  function showMenu(){
+      navbarNav.style.right="0";
+  }
+  function hideMenu(){
+      navbarNav.style.right="-400px";
+  }
 </script> -->
   </body>
 </html>
