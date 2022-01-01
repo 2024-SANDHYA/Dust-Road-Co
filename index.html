@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -101,18 +101,24 @@
           <h2 class="news">Subscribe Our Newsletter</h2>
           <p class="sub">Get frequent updates from us .</p>
           <div class="newsletter-box">
-            <input
-              class="emailbox"
-              type="email"
-              name=""
-              value=""
-              placeholder="Enter your email id"
-            />
-            <button type="button" name="button" class="letter">
-              Subscribe
-            </button>
+            <input class="emailbox" type="email" name="email" value="" id="email" placeholder="Enter your email id" />
+            <button type="button" name="button" class="letter"
+              onclick="ValidateEmail(document.getElementById('email').value)">Subscribe</button>
           </div>
         </form>
+      </div>
+  
+      <div class="popup">
+        <div>
+          <div class="popup-content">
+            <img src="./Images/confirmation.png" alt="Confirmation Image">
+            <br>
+            <h1>Saved!</h1>
+            <h5>Love. Nurture. Protect. Carpool.</h5>
+            <button class="ok-btn">OK</button>
+          </div>
+  
+        </div>
       </div>
 
       <!-- Footer 2 -->
@@ -147,6 +153,26 @@
           }
         }, 3000);
       });
+
+          //Confirmation Window
+    function ValidateEmail(mail) {
+      var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (mail.match(mailFormat)) {
+        document.querySelector(".popup").style.display = "flex";
+        document.querySelector(".ok-btn").addEventListener("click", function () {
+          document.querySelector(".popup").style.display = "none";
+        })
+        window.onclick = function (event) {
+          if (event.target == document.querySelector(".popup")) {
+            document.querySelector(".popup").style.display = "none";
+          }
+        }
+        return (true);
+
+      }
+      return (false)
+    }
+ 
       // Dynamic copyright year
 
       const yearEl = document.getElementById('year');
