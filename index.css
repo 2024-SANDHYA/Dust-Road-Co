@@ -9,6 +9,68 @@
 
 }
 
+/* Pre Loader */ 
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: auto auto;
+    background-color: lightgray;
+}
+
+#rotate_2{
+    /*bada karne  se neeche */
+    transform-origin: 65px 97px;
+    animation : tyre1 0.6s linear infinite;
+}
+
+@keyframes tyre1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#rotate_4{
+    transform-origin: 82.9% 77.4%;
+    animation : tyre2 0.6s linear infinite;
+}
+
+@keyframes tyre2 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.p-svg {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, black, #818123,
+    #a79819, black, #a79819, black);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 426px) {
+    svg {
+        width: 90%;
+    }
+    
+    .p-svg {
+        font-size: 2rem;
+    }
+}
+
+/* Pre Loader CSS Ends */
+
 /* Header */
 body{
     background: #000000;
