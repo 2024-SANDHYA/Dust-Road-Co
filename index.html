@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/9603a582d3.js"
       crossorigin="anonymous"
     ></script>
+
     <title>Dust Road Co.</title>
   </head>
   <body>
@@ -177,6 +178,39 @@
     </div>
     <!-- PRELOADER CODE ENDS -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Dust Road Co.</title>
+  </head>
+  <body>
+    <!-- Pre-Loader Start -->
+    <section>
+      <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+          <div class="animation-preloader">
+            <div class="spinner"></div>
+            <div class="txt-loading">
+              <span data-text-preloader="L" class="letters-loading"> L </span>
+
+              <span data-text-preloader="O" class="letters-loading"> O </span>
+
+              <span data-text-preloader="A" class="letters-loading"> A </span>
+
+              <span data-text-preloader="D" class="letters-loading"> D </span>
+
+              <span data-text-preloader="I" class="letters-loading"> I </span>
+
+              <span data-text-preloader="N" class="letters-loading"> N </span>
+
+              <span data-text-preloader="G" class="letters-loading"> G </span>
+            </div>
+          </div>
+          <div class="loader-section section-left"></div>
+          <div class="loader-section section-right"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Pre-Loader End -->
+
     <header>
       <a href="#" class="logo">
         <img src="./Images/banner.jpg" class="fav" />
@@ -201,6 +235,37 @@
         <a href="sawo.html">Get Started</a>
       </button>
     </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="content">
+        <h2 class="head-1">About</h2>
+        <p class="about">
+          Dust Car Co.is a step towards sustainable <br />environment. With the
+          to help users find <br />car & bike pool possibilities, thereby
+          <br />reducing traffic & commute costs.
+        </p>
+
+        <div class="explore">
+          <h2 class="ex">Explore</h2>
+
+          <ul class="serv-list">
+            <li><a href="#">Car Pooling</a></li>
+            <li><a href="#">Bike Pooling</a></li>
+            <li><a href="#">We are hiring !</a></li>
+          </ul>
+        </div>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="social">
+          <h2 class="follow">Follow Us</h2>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
 
     <!-- FOOTER -->
 
@@ -253,11 +318,19 @@
       <!-- Footer 2 -->
       <div class="foot2">
         <p class="f2">
+
           Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©2021 All rights
           reserved<br />
+
+          Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©<span
+            id="year"
+          ></span>
+          All rights reserved<br />
+
         </p>
       </div>
     </footer>
+
 
     <!-- SCRIPT FOR PRE LOADER -->
     <script>
@@ -273,18 +346,47 @@
         var header = document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 0);
       });
+
+    <!-- Sticky navbar -->
+    <script type="text/javascript">
+      window.addEventListener('scroll', function () {
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+      });
+
+      // Pre-Loader Logic
+      $(document).ready(function () {
+        setTimeout(function () {
+          $('#ctn-preloader').addClass('loaded');
+          $('body').removeClass('no-scroll-y');
+          if ($('#ctn-preloader').hasClass('loaded')) {
+            $('#preloader')
+              .delay(1000)
+              .queue(function () {
+                $(this).remove();
+              });
+          }
+        }, 3000);
+      });
+      // Dynamic copyright year
+
+      const yearEl = document.getElementById('year');
+      const today = new Date();
+      yearEl.innerText = today.getFullYear();
+
     </script>
 
     <!--JAVASCRIPT FOR TOGGLE MENU -->
     <!-- <script>
-    var navbarNav =document.getElementById("navbarNav");
 
-    function showMenu(){
-        navbarNav.style.right="0";
-    }
-    function hideMenu(){
-        navbarNav.style.right="-400px";
-    }
+  var navbarNav =document.getElementById("navbarNav");
+  function showMenu(){
+      navbarNav.style.right="0";
+  }
+  function hideMenu(){
+      navbarNav.style.right="-400px";
+  }
+
 </script> -->
   </body>
 </html>
