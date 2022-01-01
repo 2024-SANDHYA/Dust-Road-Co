@@ -1,0 +1,37 @@
+body{
+    background: #000000;
+    color: antiquewhite;
+}
+
+.heading{
+    margin-top: 3rem;
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #FFBD35;
+}
+
+.card-title{
+    color: #FFBD35;
+}
+.jobs{
+    margin-top: 3rem;
+    width: 80%;
+}
+
+.card{
+    background-color: #000000;
+}
+
+.row{
+    margin: 1rem 0;
+}
+
+.jumbotron{
+    background: #30475E;
+}
+
+.alt-head{
+    color: #FFBD35;
+    font-weight: 400;
+}
