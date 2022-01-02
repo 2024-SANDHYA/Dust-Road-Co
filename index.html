@@ -13,7 +13,7 @@
     <title>Dust Road Co.</title>
   </head>
   <body>
-    <!-- PRELOADER CODE BEGINS -->
+    <!-- PRELOADER BEGINS -->
     <div class="loader">
       <svg
         width="393"
@@ -175,98 +175,90 @@
 
       <div><p class="p-svg">LOADING...</p></div>
     </div>
-    <!-- PRELOADER CODE ENDS -->
+    <!-- PRELOADER ENDS -->
+    <div class="content-box">
+      <header>
+        <a href="#" class="logo">
+          <img src="./Images/banner.jpg" class="fav" />
+        </a>
+        <ul id="navbarNav" class="list">
+          <!-- <i class="fa fa-times"onclick="hideMenu()"></i> -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#contact">Contact </a></li>
+        </ul>
+        <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+      </header>
 
-    <header>
-      <a href="#" class="logo">
-        <img src="./Images/banner.jpg" class="fav" />
-      </a>
-      <ul id="navbarNav" class="list">
-        <!-- <i class="fa fa-times"onclick="hideMenu()"></i> -->
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#contact">Contact </a></li>
-      </ul>
-      <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
-    </header>
+      <section class="banner"></section>
 
-    <section class="banner"></section>
+      <div class="info">
+        A Step <span>Towards Bright Future!!</span>
+        <br />
 
-    <div class="info">
-      A Step <span>Towards Bright Future!!</span>
-      <br />
+        <button type="" name="button" class="start">
+          <a href="sawo.html">Get Started</a>
+        </button>
+      </div>
 
-      <button type="" name="button" class="start">
-        <a href="sawo.html">Get Started</a>
-      </button>
-    </div>
+      <!-- FOOTER -->
 
-    <!-- FOOTER -->
+      <footer>
+        <div class="content">
+          <h2 class="head-1">About</h2>
+          <p class="about">
+            Dust Car Co.is a step towards sustainable <br />environment. With
+            the to help users find <br />car & bike pool possibilities, thereby
+            <br />reducing traffic & commute costs.
+          </p>
 
-    <footer>
-      <div class="content">
-        <h2 class="head-1">About</h2>
-        <p class="about">
-          Dust Car Co.is a step towards sustainable <br />environment. With the
-          to help users find <br />car & bike pool possibilities, thereby
-          <br />reducing traffic & commute costs.
-        </p>
+          <div class="explore">
+            <h2 class="ex">Explore</h2>
 
-        <div class="explore">
-          <h2 class="ex">Explore</h2>
-
-          <ul class="serv-list">
-            <li><a href="#">Car Pooling</a></li>
-            <li><a href="#">Bike Pooling</a></li>
-            <li><a href="#">We are hiring !</a></li>
-          </ul>
-        </div>
-
-        <!-- SOCIAL MEDIA -->
-        <div class="social">
-          <h2 class="follow">Follow Us</h2>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-
-        <!--   NEWLETTER  -->
-        <form action="" class="newsletter" id="contact">
-          <h2 class="news">Subscribe Our Newsletter</h2>
-          <p class="sub">Get frequent updates from us .</p>
-          <div class="newsletter-box">
-            <input
-              class="emailbox"
-              type="email"
-              name=""
-              value=""
-              placeholder="Enter your email id"
-            />
-            <button type="button" name="button" class="letter">
-              Subscribe
-            </button>
+            <ul class="serv-list">
+              <li><a href="#">Car Pooling</a></li>
+              <li><a href="#">Bike Pooling</a></li>
+              <li><a href="#">We are hiring !</a></li>
+            </ul>
           </div>
-        </form>
-      </div>
 
-      <!-- Footer 2 -->
-      <div class="foot2">
-        <p class="f2">
-          Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©2021 All rights
-          reserved<br />
-        </p>
-      </div>
-    </footer>
+          <!-- SOCIAL MEDIA -->
+          <div class="social">
+            <h2 class="follow">Follow Us</h2>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
 
-    <!-- SCRIPT FOR PRE LOADER -->
-    <script>
-      const loader = document.querySelector(".loader");
-      window.addEventListener("load", function () {
-        loader.style.display = "none";
-      });
-    </script>
+          <!--   NEWLETTER  -->
+          <form action="" class="newsletter" id="contact">
+            <h2 class="news">Subscribe Our Newsletter</h2>
+            <p class="sub">Get frequent updates from us .</p>
+            <div class="newsletter-box">
+              <input
+                class="emailbox"
+                type="email"
+                name=""
+                value=""
+                placeholder="Enter your email id"
+              />
+              <button type="button" name="button" class="letter">
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
 
+        <!-- Footer 2 -->
+        <div class="foot2">
+          <p class="f2">
+            Made with 💛 & ☕ by <span>Sandhya Agarwal</span> | ©2021 All rights
+            reserved<br />
+          </p>
+        </div>
+      </footer>
+    </div>
     <!-- Sticky navbar -->
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
@@ -286,5 +278,14 @@
         navbarNav.style.right="-400px";
     }
 </script> -->
+
+    <script>
+      const loader = document.querySelector(".loader");
+      const content = document.querySelector(".content-box");
+      window.onload = function () {
+        loader.style.display = "none";
+        content.style.display = "block";
+      };
+    </script>
   </body>
 </html>
