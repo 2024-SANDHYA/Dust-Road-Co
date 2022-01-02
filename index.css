@@ -402,3 +402,11 @@ margin-left: 5%;
     background-color:#fdff00 ;
 
 }
+#about{
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.about-head {
+    text-decoration: underline #fff;
+}
