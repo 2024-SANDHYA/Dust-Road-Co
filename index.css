@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* PRELOADER CSS BEGINS */
+/* PRELOADER CSS BEGINS((CREATED BY TIA SAXENA) */
 .content-box{
   display: none;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -456,7 +456,7 @@ form {
   background-color: #fdff00;
 }
 
-/*  PRELOADER CODE BEGIN  */
+ /* PRELOADER CODE BEGIN  
 
 .no-scroll-y {
   overflow-y: hidden;
@@ -618,4 +618,4 @@ form {
     font: bold 2em 'Montserrat', sans-serif;
   }
 }
-/*  PRELOADER END  */
+  PRELOADER END  */
