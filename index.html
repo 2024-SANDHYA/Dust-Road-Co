@@ -282,10 +282,18 @@
     <script>
       const loader = document.querySelector(".loader");
       const content = document.querySelector(".content-box");
-      window.onload = function () {
+//       window.onload = function () {
+//         loader.style.display = "none";
+//         content.style.display = "block";
+//       };
+      
+      function removeLoader() {
         loader.style.display = "none";
         content.style.display = "block";
-      };
+      }
+
+      setTimeout(removeLoader, 2500);
+      
     </script>
   </body>
 </html>
