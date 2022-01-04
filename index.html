@@ -13,7 +13,7 @@
     <title>Dust Road Co.</title>
   </head>
   <body>
-    <!-- PRELOADER BEGINS (ADDED BY TIA SAXENA)-->
+    <!--  PRELOADER BEGINS (ADDED BY TIA SAXENA) -->
     <div class="loader">
       <svg
         width="393"
@@ -172,7 +172,7 @@
           </g>
         </g>
       </svg>
-
+      <hr />
       <div><p class="p-svg">LOADING...</p></div>
     </div>
     <!-- PRELOADER ENDS -->
@@ -282,18 +282,12 @@
     <script>
       const loader = document.querySelector(".loader");
       const content = document.querySelector(".content-box");
-//       window.onload = function () {
-//         loader.style.display = "none";
-//         content.style.display = "block";
-//       };
-      
       function removeLoader() {
         loader.style.display = "none";
         content.style.display = "block";
       }
 
-      setTimeout(removeLoader, 2500);
-      
+      setTimeout(removeLoader, 1600);
     </script>
   </body>
 </html>
