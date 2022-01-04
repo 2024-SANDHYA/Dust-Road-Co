@@ -11,8 +11,33 @@
 /* PRELOADER CSS BEGINS((CREATED BY TIA SAXENA) */
 .content-box{
   display: none;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  opacity: 0;
+  animation: fadeInAnimation ease 4s;
+  opacity:1;
 }
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+/* .addAnimation {
+  animation: bringContent 3s ease;
+}
+
+@keyframes bringContent {
+  form {
+    opacity : 0;
+  }
+  to{
+    opacity: 1;
+  }
+} */
 
 
 .loader {
@@ -22,15 +47,27 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(0, 0, 0);
   transition: 2s;
 }
 
+svg {
+  animation: car 1.2s linear infinite;
+}
+
+@keyframes car {
+  from{
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(350px);
+  }
+}
 
 #rotate_2{
   /*bada karne  se neeche */
   transform-origin: 65px 97px;
-  animation : tyre1 0.6s linear infinite;
+  animation : tyre1 0.3s linear infinite;
 }
 
 @keyframes tyre1 {
@@ -43,7 +80,7 @@
 }
 #rotate_4{
   transform-origin: 82.9% 77.4%;
-  animation : tyre2 0.6s linear infinite;
+  animation : tyre2 0.3s linear infinite;
 }
 
 @keyframes tyre2 {
@@ -55,12 +92,17 @@
   }
 }
 
+hr {
+  color: #dada3f;
+  width: 65%;
+  padding-top: 0.2rem;
+
+}
+
 .p-svg {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background: linear-gradient(to right, black, #818123,
-  #a79819, black, #a79819, black);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
+  color: white;
+  padding: 0.5rem;
   font-size: 2.5rem;
 }
 
