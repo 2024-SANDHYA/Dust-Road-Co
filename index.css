@@ -557,7 +557,49 @@ form {
     font-size: larger;
 }
 
-.about-head {
-    text-decoration: underline #fff;
-}
 /*  PRELOADER END  */
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+#about{
+  padding: 50px;
+  font-family: 'Moon Dance', cursive;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.container{
+  align-self: flex-start;
+  font-family: 'Moon Dance', cursive;
+  font-size: 1.2rem;
+  line-height: 26px;
+}
+.another{
+  
+  border: #b3b3b3 2px solid;
+  border-radius: 0.5rem;
+  padding: 10px;
+  margin-left: 10px;
+  background-image: linear-gradient(135deg, #000000 85%, rgb(58, 58, 58) 15%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+.another h4{
+  font-family: 'Vujahday Script', cursive;  
+}
+.another-head{
+  background-image: linear-gradient(90deg, #ff0000, #0000ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.about-content{
+  border: #b3b3b3 2px solid;
+  border-radius: 0.5rem;
+  padding: 10px;
+  background-image: linear-gradient(45deg, #000000 65%, rgb(58, 58, 58) );
+}
+.about-head{
+  background-image: linear-gradient(90deg, #ff0000, #ffff00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
