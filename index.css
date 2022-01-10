@@ -389,7 +389,6 @@ form {
   background-color: #fdff00;
 }
 
-<<<<<<< HEAD
 /* testimonial */
 .d-block{
     padding-bottom: 170px;
@@ -404,7 +403,7 @@ form {
     font-size: 16px;
   font-style: italic;
   }
-=======
+
 /*  PRELOADER CODE BEGIN  */
 
 .no-scroll-y {
@@ -568,4 +567,19 @@ form {
   }
 }
 /*  PRELOADER END  */
->>>>>>> 2b96913eb1511eb7df4ab3ae9024a50d88c3d5ab
+
+/* testimonial */
+.d-block{
+    padding-bottom: 170px;
+    padding-left: 538px;
+  }
+  
+  .head{
+    text-align: center;
+  }
+  
+  .text-box{
+    font-size: 16px;
+  font-style: italic;
+  }
+
