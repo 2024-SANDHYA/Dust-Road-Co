@@ -402,3 +402,18 @@ margin-left: 5%;
     background-color:#fdff00 ;
 
 }
+
+/* testimonial */
+.d-block{
+    padding-bottom: 170px;
+    padding-left: 538px;
+  }
+  
+  .head{
+    text-align: center;
+  }
+  
+  .text-box{
+    font-size: 16px;
+  font-style: italic;
+  }
