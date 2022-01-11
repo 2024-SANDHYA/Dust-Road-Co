@@ -391,21 +391,6 @@ form {
   background-color: #fdff00;
 }
 
-/* testimonial */
-.d-block{
-    padding-bottom: 170px;
-    padding-left: 538px;
-  }
-  
-  .head{
-    text-align: center;
-  }
-  
-  .text-box{
-    font-size: 16px;
-  font-style: italic;
-  }
-
 /*  PRELOADER CODE BEGIN  */
 
 .no-scroll-y {
@@ -585,3 +570,8 @@ form {
   font-style: italic;
   }
 
+  .testimonial-section{
+    position: relative;
+    background-size: cover ;
+    background-color: #E8E8E8;
+  }
