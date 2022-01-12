@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ header ul li a:hover {
   text-underline-offset: transform scale(1.03);
 }
 header ul li::after {
-  content: '';
+  content: "";
   height: 2.5px;
   background: #fada5e;
   display: block;
@@ -80,7 +80,7 @@ header ul li a {
   font-weight: 500px;
   transition: 0.6s;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner {
@@ -357,14 +357,17 @@ form {
 /* CSS TEXT ANIMATION */
 
 .info {
-  transform: translateY(-200%);
+  position: absolute;
+  top: 305px;
+  transform: translateY(100%);
+  transform: translateX(50%);
   color: white;
   font-size: 43px;
   text-align: center;
   margin-left: 5%;
 }
 .span {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
 .start a {
@@ -424,7 +427,7 @@ form {
   width: 9em;
 }
 .ctn-preloader .animation-preloader .txt-loading {
-  font: bold 5em 'Montserrat', sans-serif;
+  font: bold 5em "Montserrat", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -540,7 +543,7 @@ form {
     width: 8em;
   }
   .ctn-preloader .animation-preloader .txt-loading {
-    font: bold 3.5em 'Montserrat', sans-serif;
+    font: bold 3.5em "Montserrat", sans-serif;
   }
 }
 
@@ -550,29 +553,69 @@ form {
     width: 7em;
   }
   .ctn-preloader .animation-preloader .txt-loading {
-    font: bold 2em 'Montserrat', sans-serif;
+    font: bold 2em "Montserrat", sans-serif;
   }
 }
 /*  PRELOADER END  */
 
 /* testimonial */
-.d-block{
-    padding-bottom: 170px;
-    padding-left: 538px;
-  }
-  
-  .head{
-    text-align: center;
-  }
-  
-  .text-box{
-    font-size: 16px;
-  font-style: italic;
-  }
+.d-block {
+  padding-bottom: 170px;
+  padding-left: 538px;
+}
 
-  .testimonial-section{
-    padding-top: 50px;
-    position: relative;
-    background-size: cover ;
-    background-color: #E8E8E8;
-  }
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.text-box {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.testimonial-section {
+  padding-top: 50px;
+  position: relative;
+  background-size: cover;
+  background-color: #e8e8e8;
+}
+/* How it Works */
+
+.section-steps {
+  background-color: #e8e8e8;
+  clear: both;
+  padding: 50px 20px 70px 20px;
+  margin: 0;
+}
+.step-box {
+  border-right: 1px solid #929217;
+}
+.step-box:last-child {
+  border-right: 0px solid #fff;
+}
+.works-section div {
+  color: #929217;
+  text-align: right;
+  font-size: 500%;
+}
+.works-section p {
+  text-align: justify;
+}
+
+.row {
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+}
+.row {
+  zoom: 1;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
