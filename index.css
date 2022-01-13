@@ -145,7 +145,7 @@ footer {
   color: black;
   font-size:xx-large;
 }
-.popup-content h5 {
+.popup-content h6 {
   color: gray;
 padding: 12px 0px;
 }
@@ -389,6 +389,7 @@ form {
   .popup-content img {
     width: 50%;
   }
+
   .head-1,
   .ex,
   .follow {
@@ -435,6 +436,8 @@ form {
   color: rgb(2, 2, 2);
   font-size: 15px;
   cursor: pointer;
+  float: left;
+  padding-left: 18px;
 }
 
 .start {
@@ -615,3 +618,25 @@ form {
   }
 }
 /*  PRELOADER END  */
+
+/* testimonial */
+.d-block{
+    padding-bottom: 170px;
+    padding-left: 538px;
+  }
+  
+  .head{
+    text-align: center;
+  }
+  
+  .text-box{
+    font-size: 16px;
+  font-style: italic;
+  }
+
+  .testimonial-section{
+    padding-top: 50px;
+    position: relative;
+    background-size: cover ;
+    background-color: #E8E8E8;
+  }
