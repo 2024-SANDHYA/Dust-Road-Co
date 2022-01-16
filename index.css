@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body{
@@ -197,6 +196,68 @@ span {
 .fab {
   font-size: 30px;
   color: #fff;
+}
+
+/* ---------------------SERVICES------------------ */
+
+#services a{
+  margin-top: 0px;
+  text-decoration: none;
+}
+#services>h3{
+  text-align: center;
+}
+#service-containner{
+  display: flex;
+  margin: 12px 56px;
+  padding: 8px 88px;
+  background-color: #f5f4f4d7;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow:2px 2px 8px rgb(124, 121, 121);
+}
+.service-box{
+  background-color: rgba(252, 252, 252, 0.801);
+  margin: 12px 2px;
+  height: 260px;
+  width: 210px;
+  box-shadow: 4px 4px 10px rgb(95, 94, 94);
+  border-radius: 6px;
+  transition: .3s;
+}
+.service-box:hover{
+  transform: translateX(-8px);
+}
+.shadow{
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 56px;
+  height:65px;
+  width:60px;
+  box-shadow: none;
+  border-radius: 50%;
+  opacity: .3;
+}
+.service-box>i{
+  margin-left: 36px;
+  position: relative;
+  top: 25%;
+}
+.service-box>h2{
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  position: relative;
+  font-weight: bold;
+  top: 32%;
+  margin-left: 12px;
+}
+.service-box>p{
+  font-size: 12px;
+  color:rgb(20, 20, 20);
+  position: relative;
+  top:34%;
+  margin-left: 12px;
 }
 
 /*------------------- Newletter------------------ */
