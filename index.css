@@ -94,7 +94,7 @@ a {
 .navbar .navbar-header .navbar-toggler span {
   height: 2px;
   width: 22px;
-  background-color: #000000;
+  background-color: #f3ecec;
   display: block;
 }
 .navbar .navbar-header .navbar-toggler span:not(:last-child) {
