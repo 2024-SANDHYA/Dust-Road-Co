@@ -199,6 +199,42 @@ span {
   color: #fff;
 }
 
+/* ---- About us ---- */
+.About{
+  /*background-color: green;*/
+  padding: 80px 30px;
+  position: relative;
+  top: -180px;
+  margin-bottom: -180px;
+}
+.About h2{
+  text-align: center;
+  font-size: 4em;
+  color: Black;
+}
+.container{
+  display: flex;
+}
+.container img{
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.container p{
+  padding: 30px;
+  font-size: 20px;
+}
+.abt-btn{
+  padding: 15px;
+  background-color: blue;
+  margin-left: 300px;
+  border: none;
+  border-radius: 10px;
+}
+.abt-btn a{
+  color: white;
+  text-decoration: none;
+}
+
 /*------------------- Newletter------------------ */
 
 form {
