@@ -339,8 +339,15 @@ span {
   header, header.sticky {
     padding-left: 10px;
   }
+  img.fav {
+    width: 100px;
+    padding: 18px 0;
+  }
   .mobile-nav-list {
     width: calc(100vw - 10rem);
+  }
+  .footer-upper {
+    margin: 0 15px;
   }
 }
 @media (max-width: 436px){
