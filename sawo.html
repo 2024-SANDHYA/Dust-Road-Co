@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9603a582d3.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./Images/banner.jpg">
     <link rel="stylesheet" href="sawo.css">
     <link rel="stylesheet" href="index.css">
@@ -19,13 +20,29 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#contact">Contact Us</a></li>
-            
         </ul>
-      </a>
+
+        <div class="menu-bar"><i class="fas fa-bars" id="menu-bar"></i></div>
+        <div class="mobile-nav-list">
+            <ul class="mobile-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">Contact </a></li>
+            </ul>
+            <div class="mobi-social">
+                <h2>Follow Us</h2>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </header>
  
-    <h2 class="h">LOGIN TO PROCEED FURTHER</h2>
-    <div id="sawo-container" style="height: 300px; width: 400px;"></div>
+    <div class="sawo-form">
+        <h2 class="heading">LOGIN TO PROCEED FURTHER</h2>
+        <div id="sawo-container"></div>
+    </div> 
     <script src="https://websdk.sawolabs.com/sawo.min.js"></script>    
     <script>
         var config = {
@@ -46,13 +63,8 @@
 
     
 <!-- Sticky navbar -->
-
-<script type="text/javascript">
-    window.addEventListener("scroll",function() {
-    var header =document.querySelector("header")
-    header.classList.toggle("sticky",window.scrollY > 0);
-    });
-    </script>
+<script src="index.js"></script>
+</script>
 
 
 </body>

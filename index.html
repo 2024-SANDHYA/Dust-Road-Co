@@ -18,7 +18,7 @@
 
 <body>
     <!-- Pre-Loader Start -->
-    <section>
+    <!-- <section>
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
                 <div class="animation-preloader">
@@ -43,7 +43,7 @@
                 <div class="loader-section section-right"></div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Pre-Loader End -->
     <header>
         <a href="#" class="logo">
@@ -56,17 +56,34 @@
             <li><a href="#">Services</a></li>
             <li><a href="#contact">Contact </a></li>
         </ul>
+        <div class="menu-bar"><i class="fas fa-bars" id="menu-bar"></i></div>
+        <div class="mobile-nav-list">
+            <ul class="mobile-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">Contact </a></li>
+            </ul>
+            <div class="mobi-social">
+                <h2>Follow Us</h2>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
         <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
     </header>
 
-    <section class="banner"></section>
-    <div class="info">
-        A Step <span>Towards Bright Future!!</span>
-        <br />
-        <button type="" name="button" class="start">
-            <a href="sawo.html">Get Started</a>
-        </button>
-    </div>
+    <section class="banner">
+        <div class="info">
+            A Step <span>Towards Bright Future!!</span>
+            <br />
+            <button type="" name="button" class="start">
+                <a href="sawo.html">Get Started</a>
+            </button>
+        </div>
+    </section>
+    
 
     <!-- Testimonial Slider -->
     <section class="testimonial-section">
@@ -82,8 +99,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="Images/img-2-modified.png" class="d-block">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="slider-img"><img src="Images/img-2-modified.png" class="d-block"></div>
+                    <div class="carousel-caption d-none d-md-block" id="slider-caption">
                         <h5>Person 1</h5>
                         <p class="text-box">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatum
                             dolores
@@ -95,8 +112,8 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="Images/img-1-modified.png" class="d-block">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="slider-img"><img src="Images/img-1-modified.png" class="d-block"></div>
+                    <div class="carousel-caption d-none d-md-block" id="slider-caption">
                         <h5>Person 2</h5>
                         <p class="text-box">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
                             repudiandae!
@@ -108,8 +125,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="Images/img-4-modified.png" class="d-block">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="slider-img"><img src="Images/img-4-modified.png" class="d-block"></div>
+                    <div class="carousel-caption d-none d-md-block" id="slider-caption">
                         <h5>Person 3</h5>
                         <p class="text-box">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum,
                             perferendis sed
@@ -137,42 +154,49 @@
 
     <footer>
         <div class="content">
-            <h2 class="head-1">About</h2>
-            <p class="about">
-                Dust Car Co.is a step towards sustainable <br />environment. With the
-                to help users find <br />car & bike pool possibilities, thereby
-                <br />reducing traffic & commute costs.
-            </p>
-
-            <div class="explore">
-                <h2 class="ex">Explore</h2>
-
-                <ul class="serv-list">
-                    <li><a href="#">Car Pooling</a></li>
-                    <li><a href="#">Bike Pooling</a></li>
-                    <li><a href="#">We are hiring !</a></li>
-                </ul>
-            </div>
-
-            <!-- SOCIAL MEDIA -->
-            <div class="social">
-                <h2 class="follow">Follow Us</h2>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-
-            <!--   NEWLETTER  -->
-            <form action="" class="newsletter" id="contact">
-                <h2 class="news">Subscribe Our Newsletter</h2>
-                <p class="sub">Get frequent updates from us .</p>
-                <div class="newsletter-box">
-                    <input class="emailbox" type="email" name="" value="" placeholder="Enter your email id" />
-                    <button type="button" name="button" class="letter">
-                        Subscribe
-                    </button>
+            <div class="footer-upper">
+                <div class="about">
+                    <h2 class="head-1">About</h2>
+                    <p class="about">
+                        Dust Car Co.is a step towards sustainable <br />environment. With the
+                        to help users find <br />car & bike pool possibilities, thereby
+                        <br />reducing traffic & commute costs.
+                    </p>
                 </div>
-            </form>
+                
+    
+                <div class="explore">
+                    <h2 class="ex">Explore</h2>
+                    <ul class="serv-list">
+                        <li><a href="#">Car Pooling</a></li>
+                        <li><a href="#">Bike Pooling</a></li>
+                        <li><a href="#">We are hiring !</a></li>
+                    </ul>
+                </div>
+    
+                <!-- SOCIAL MEDIA -->
+                <div class="social">
+                    <h2 class="follow">Follow Us</h2>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+           
+            <!--   NEWLETTER  -->
+            <div class="newsletter">
+                <form action="" id="contact">
+                    <h2 class="news">Subscribe Our Newsletter</h2>
+                    <p class="sub">Get frequent updates from us .</p>
+                    <div class="newsletter-box">
+                        <input class="emailbox" type="email" name="" value="" placeholder="Enter your email id" />
+                        <button type="button" name="button" class="letter">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+           
         </div>
 
         <!-- Footer 2 -->
@@ -186,11 +210,6 @@
 
     <!-- Sticky navbar -->
     <script type="text/javascript">
-        window.addEventListener('scroll', function () {
-            var header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY > 0);
-        });
-
         // Pre-Loader Logic
         $(document).ready(function () {
             setTimeout(function () {
@@ -205,12 +224,15 @@
                 }
             }, 3000);
         });
+
         // Dynamic copyright year
 
         const yearEl = document.getElementById('year');
         const today = new Date();
         yearEl.innerText = today.getFullYear();
+
     </script>
+    <script src="index.js"></script>
 
     <!--JAVASCRIPT FOR TOGGLE MENU -->
     <!-- <script>
