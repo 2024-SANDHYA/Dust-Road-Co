@@ -137,8 +137,8 @@ ul li a {
 }
 
 .serv-list li a:hover {
-  text-decoration: underline;
-  color: #dedede;
+  /* text-decoration: underline; */
+  color: yellow;
 }
 .explore {
   padding-top: 0px;
@@ -216,7 +216,7 @@ form {
   padding-left: 20px;
 }
 .newsletter-box {
-  padding-top: 20px;
+  padding-top: 75px;
 }
 
 .letter {
