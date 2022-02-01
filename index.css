@@ -138,6 +138,7 @@ ul li a {
 
 .serv-list li a:hover {
   /* text-decoration: underline; */
+  /* color: #dedede; */
   color: yellow;
 }
 .explore {
