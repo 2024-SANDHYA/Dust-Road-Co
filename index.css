@@ -137,8 +137,15 @@ ul li a {
 }
 
 .serv-list li a:hover {
+<<<<<<< Updated upstream
   text-decoration: underline;
   color: #dedede;
+=======
+  /* text-decoration: underline; */
+  /* color: #dedede; */
+  
+  color: yellow;
+>>>>>>> Stashed changes
 }
 .explore {
   padding-top: 0px;
