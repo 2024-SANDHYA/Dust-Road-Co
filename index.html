@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewportm" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" href="./Images/banner.jpg" />
     <script src="https://kit.fontawesome.com/9603a582d3.js" crossorigin="anonymous"></script>
@@ -144,6 +144,7 @@
                 <br />reducing traffic & commute costs.
             </p>
 
+
             <div class="explore">
                 <h2 class="ex">Explore</h2>
 
@@ -167,13 +168,27 @@
                 <h2 class="news">Subscribe Our Newsletter</h2>
                 <p class="sub">Get frequent updates from us .</p>
                 <div class="newsletter-box">
-                    <input class="emailbox" type="email" name="" value="" placeholder="Enter your email id" />
-                    <button type="button" name="button" class="letter">
-                        Subscribe
-                    </button>
+                  <input class="emailbox" type="email" name="email" value="" id="email" placeholder="Enter your email id" />
+                  <button type="button" name="button" class="letter"
+                    onclick="ValidateEmail(document.getElementById('email').value)">Subscribe</button>
                 </div>
-            </form>
+              </form>
+            </div>
+
+
+      <div class="popup">
+        <div>
+          <div class="popup-content">
+            <img src="./Images/confirmation.png" alt="Confirmation Image">
+            <br>
+            <h1>Success!</h1>
+            <h6>You have successfully registered</h6>
+            <button class="ok-btn">OK</button>
+          </div>
+  
         </div>
+      </div>
+
 
         <!-- Footer 2 -->
         <div class="foot2">
@@ -205,6 +220,26 @@
                 }
             }, 3000);
         });
+        
+          //Confirmation Window
+    function ValidateEmail(mail) {
+      var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (mail.match(mailFormat)) {
+        document.querySelector(".popup").style.display = "flex";
+        document.querySelector(".ok-btn").addEventListener("click", function () {
+          document.querySelector(".popup").style.display = "none";
+        })
+        window.onclick = function (event) {
+          if (event.target == document.querySelector(".popup")) {
+            document.querySelector(".popup").style.display = "none";
+          }
+        }
+        return (true);
+
+      }
+      return (false)
+    }
+
         // Dynamic copyright year
 
         const yearEl = document.getElementById('year');

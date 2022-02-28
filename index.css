@@ -117,6 +117,55 @@ footer {
   padding-top: 5%;
 }
 
+/* Confirmation Popup */
+
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.popup-content {
+  height: 55%;
+  width: 300px;
+  padding: 5%;
+  background: rgb(235, 233, 233);
+  border-radius: 10px;
+  position: relative;
+}
+.popup-content h1 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 800;
+  color: black;
+  font-size:xx-large;
+}
+.popup-content h6 {
+  color: gray;
+padding: 12px 0px;
+}
+.popup-content button {
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 13px;
+  background: #232b2b;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+.popup-content img {
+  width: 55%;
+}
+.popup-content button:hover {
+  background: #000000;
+  text-decoration: none;
+}
+
 .about {
   padding-top: 2%;
   padding-bottom: 3%;
@@ -288,6 +337,13 @@ form {
   header ul li a {
     font-size: 15px;
   }
+  .popup-content {
+    height: 50%;
+    width: 80%;
+  }
+  .popup-content img {
+    width: 50%;
+  }
 }
 
 /* Mobile View */
@@ -333,6 +389,14 @@ form {
     padding-left: 4px;
     padding-top: 2%;
   }
+  .popup-content {
+    height: 50%;
+    width: 80%;
+  }
+  .popup-content img {
+    width: 50%;
+  }
+
   .head-1,
   .ex,
   .follow {
