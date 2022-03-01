@@ -1,0 +1,40 @@
+body{
+    min-height:100vh;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 2, 2, 0.7),rgb(3, 2, 3)),url(../Images/donate_bg.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* CSS TEXT ANIMATION */
+
+ 
+.donate a{
+    text-decoration: none;
+    color:rgb(2, 2, 2);
+    font-size: 15px;
+    cursor: pointer;
+       
+}
+    
+.donate{
+    width:130px;
+    height: 54px;
+    text-transform: uppercase;
+    background-color:#dada3f;
+    border: none;
+    margin-top: 60px;
+    margin-right: 55px;
+    border-radius:6px;
+    outline: none;
+}
+    
+.donate:hover{
+    background-color:#fdff00 ;
+    
+}
